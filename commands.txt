@@ -1,7 +1,7 @@
 git clone https://github.com/sveta1109/pw-first-task-sveta1109.git
 git checkout -b "human-side"
 git add bach.mp3
-git commit -m "Immortal work of the immortal human"
+git commit -m "Immortal work of the immortal human
 git push --set-upstream origin human-side
 git add wolf_quote.txt
 git commit -m "She is the same as me"
