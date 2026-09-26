@@ -1,0 +1,26 @@
+git clone https://github.com/sveta1109/pw-first-task-sveta1109.git
+git checkout -b "human-side"
+git add bach.mp3
+git commit -m "Immortal work of the immortal human"
+git push --set-upstream origin human-side
+git add wolf_quote.txt
+git commit -m "She is the same as me"
+git push
+git checkout master
+git checkout -b "wolf-side"
+git add wolf_quote.txt
+git commit -m "Ауф"
+git add cute.jpg
+git commit -m "Feeling cute, might delete later"
+git push --set-upstream origin wolf-side
+git reset --hard HEAD~1
+git push -f
+git checkout master
+git merge human-side
+git push
+git checkout wolf-side
+git add wolf_quote.txt
+git rebase --continue
+git add commands.txt
+git commit -m "added commands"
+git push
