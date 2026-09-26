@@ -20,7 +20,11 @@ git merge human-side
 git push
 git checkout wolf-side
 git add wolf_quote.txt
+git checkout wolf-side
+git rebase master
+git add wolf_quote.txt
 git rebase --continue
+git push -f
 git add commands.txt
 git commit -m "added commands"
 git push
